@@ -1,0 +1,30 @@
+///******requirement******///
+training in windows os system
+       python 3.5or6
+pacakges: 
+scipy
+Pillow
+cython
+matplotlib
+scikit-image
+tensorflow>=1.3.0
+keras>=2.0.8
+opencv-python
+h5py
+imgaug
+IPython[all]
+
+///******some suggestion******///
+some problem i met when setting up the environment
+1.downloading the Anaconda(support the version >= py3.5)
+2.if you download the the version of python=3.7,you have to creat a virtual environment which is the python3.5or6 environment by using command
+"conda create --name your_env_name python=3.5or6"
+3.then activate your env, starting install the pacakges required
+
+///******why using virtual environment******///
+there are always some error ,warining existing when using the origin version 
+for example:
+some packages are hard to install perfectlylike tensorflow 
+i had ever spent a day to install the package after uograde
+the conda upgrade the pip, it still not worked.
+To start your training quickly ,from my previous experience, i strongly suggesting you creat a env if you are a window's user.
